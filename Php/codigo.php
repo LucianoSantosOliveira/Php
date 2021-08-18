@@ -1,6 +1,6 @@
 <?php
 
-$url = "https://swapi.dev/api/starships";
+$url = "https://swapi.dev/api/people";
 
 $results = json_decode(file_get_contents($url));
 
